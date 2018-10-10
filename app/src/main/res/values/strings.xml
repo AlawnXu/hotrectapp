@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Android不规则点击区域详解</string>
+    <string name="str_chrome">需求1-Chrome</string>
+    <string name="str_china_map">需求2-中国地图</string>
+    <string name="str_person">需求3-人体结构图</string>
+</resources>

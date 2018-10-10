@@ -1,0 +1,137 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/root"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/front"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+
+            <com.anyapps.hotapp.widget.ClickareaView
+                android:id="@+id/clickareaView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:clickable="true" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@null"
+                android:drawablePadding="5dp"
+                android:drawableTop="@drawable/overturn_st"
+                android:paddingBottom="5dp"
+                android:paddingTop="5dp"
+                android:text="背"
+                android:textColor="@color/overturn_color"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </FrameLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar1"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</FrameLayout>
